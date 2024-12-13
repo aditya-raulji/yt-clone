@@ -162,7 +162,7 @@ function Sidebar() {
               key={item.id}
               className="flex items-center space-x-6 hover:bg-gray-300 duration-300 rounded-xl p-1"
             >
-              <div className="text-xl cursor-pointer">{item.icon}</div>
+              <div className="text-xl cursor-pointer  hover:text-purple-900">{item.icon}</div>
               <span className="cursor-pointer">{item.name}</span>
             </div>
           );
@@ -182,7 +182,7 @@ function Sidebar() {
               key={item.id}
               className="flex items-center space-x-6 hover:bg-gray-300 duration-300 rounded-xl p-1"
             >
-              <div className="text-xl cursor-pointer">{item.icon}</div>
+              <div className="text-xl cursor-pointer  hover:text-purple-900">{item.icon}</div>
               <span className="cursor-pointer">{item.name}</span>
             </div>
           );
@@ -201,7 +201,7 @@ function Sidebar() {
               key={item.id}
               className="flex items-center space-x-6 hover:bg-gray-300 duration-300 rounded-xl p-1"
             >
-              <div className="text-xl cursor-pointer">{item.icon}</div>
+              <div className="text-xl cursor-pointer hover:text-purple-900">{item.icon}</div>
               <span className="cursor-pointer">{item.name}</span>
             </div>
           );
@@ -230,14 +230,14 @@ function Sidebar() {
         <hr />
       </div>
       <br />
-      <span className="text-xs text-gray-600 font-semibold">
+      <span className="text-xs text-gray-600  hover:text-purple-900 font-semibold">
         About Press Copyright <br /> Contact us Creators <br /> Advertise
         Developers <br />
         <p className="mt-3">Terms Privacy Policy & Safety</p> How YouTube works{" "}
         <br /> Test new features
       </span>
       <br />
-      <p className="text-xs text-gray-500 mt-3">© 2024 Learn Coding</p>
+      <p className="text-xs text-gray-500  hover:text-purple-900 mt-3">© 2024 Learn Coding</p>
     </div>
   );
 }
